@@ -1,0 +1,9 @@
+const ProductDetails = ({ params }: { params: { productId: string } }) => {
+  return (
+    <div>
+      <h1>Details about products {params.productId}</h1>
+    </div>
+  );
+};
+
+export default ProductDetails;
