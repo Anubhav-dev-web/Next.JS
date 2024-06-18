@@ -85,11 +85,11 @@ Before you begin, ensure you have the following installed:
 
 ## 📂 Example Codes
 
-- **Hello World**: [View Code](./pages/index.js)
-- **Dynamic Routing**: [View Code](./pages/posts/[id].js)
-- **API Route Example**: [View Code](./pages/api/hello.js)
-- **CSS Modules**: [View Code](./styles/Home.module.css)
-- **Data Fetching with getStaticProps**: [View Code](./pages/posts/index.js)
+- **Hello World**
+- **Dynamic Routing**
+- **API Route Example**
+- **CSS Modules**
+- **Data Fetching with getStaticProps**
 
 ## 🛠️ Useful Resources
 
