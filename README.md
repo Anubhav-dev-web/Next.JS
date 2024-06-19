@@ -108,10 +108,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-Feel free to customize this README file to better suit your needs and preferences.
