@@ -1,4 +1,4 @@
-import Head from "next/head"; // For SEO elements
+import Link from "next/link";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
@@ -22,16 +22,20 @@ export default function RootLayout({
           <nav>
             <ul className="flex space-x-4">
               <li>
-                <a href="/" className="hover:text-gray-400">
+                <Link href="/" className="hover:text-gray-400">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="hover:text-gray-400">
+                <Link href="/about" className="hover:text-gray-400">
                   About
-                </a>
+                </Link>
               </li>
-              {/* Add more navigation links as needed */}
+              <li>
+                <Link href="/products" className="hover:text-gray-400">
+                  products
+                </Link>
+              </li>
             </ul>
           </nav>
         </header>

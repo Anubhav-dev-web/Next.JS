@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head"; // For SEO elements
-import Image from "next/image"; // For responsive image handling
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -17,12 +17,12 @@ const HomePage = () => {
           them right away!
         </p>
         <div className="mt-8 flex justify-center">
-          <a
+          <Link
             href="/about"
             className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Learn More
-          </a>
+          </Link>
         </div>
         <div className="mt-8"> {/* Responsive image handling */}</div>
       </div>

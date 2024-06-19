@@ -1,6 +1,6 @@
-Sure, here's an example of a README file for your Next.js learning repository, designed to be clear, informative, and visually appealing:
 
----
+
+
 
 # 📚 Next.js Learning Repository
 
