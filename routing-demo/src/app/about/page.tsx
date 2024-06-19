@@ -2,6 +2,11 @@ import React from "react";
 import Head from "next/head"; // For SEO elements
 import Image from "next/image"; // For responsive image handling
 
+export const metadata = {
+  title: "Next.js learning - About Us",
+  description: "Learn more about us",
+};
+
 const About = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center">
