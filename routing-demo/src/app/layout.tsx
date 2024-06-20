@@ -36,6 +36,11 @@ export default function RootLayout({
                   products
                 </Link>
               </li>
+              <li>
+                <Link href="/blog" className="hover:text-gray-400">
+                  Blogs
+                </Link>
+              </li>
             </ul>
           </nav>
         </header>
