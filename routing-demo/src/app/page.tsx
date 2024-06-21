@@ -13,8 +13,8 @@ const HomePage = () => {
       <div className="max-w-md text-center p-8 bg-white rounded-xl shadow-md">
         <h1 className="text-4xl font-bold text-gray-800">Welcome Home!</h1>
         <p className="text-gray-600 mt-4">
-          This is my app's landing page. Explore more features or start using
-          them right away!
+          This is my app &aposs landing page. Explore more features or start
+          using them right away!
         </p>
         <div className="mt-8 flex justify-center">
           <Link

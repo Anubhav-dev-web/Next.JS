@@ -4,7 +4,7 @@ const NotFound: React.FC = () => {
       <div className="max-w-md text-center p-8 bg-white rounded-xl shadow-md">
         <h1 className="text-4xl font-bold text-gray-800">Oops! We got lost.</h1>
         <p className="text-gray-600 mt-4">
-          The page you're looking for could not be found. It might be
+          The page you&aposre looking for could not be found. It might be
           unavailable temporarily, or it might have moved.
         </p>
         <div className="mt-8 flex justify-center">

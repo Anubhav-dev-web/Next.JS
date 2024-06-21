@@ -20,9 +20,9 @@ const About = () => {
           <h1 className="text-3xl font-bold text-gray-800">About Us</h1>
         </div>
         <p className="text-gray-600 leading-loose">
-          This is your company's story. Explain who you are, what you do, and
-          your mission. Highlight your values and what motivates your team. You
-          can also mention your founding year, location, and any key
+          This is your company &apos s story. Explain who you are, what you do,
+          and your mission. Highlight your values and what motivates your team.
+          You can also mention your founding year, location, and any key
           achievements.
         </p>
         <div className="flex justify-center items-center">
