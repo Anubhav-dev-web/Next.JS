@@ -7,6 +7,10 @@ export default function ProductDetailLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const random = getRandomInt(2);
+  if (random === 1) {
+    throw new Error('Error Loading product ');
+  }
   return (
     <>
       {children}

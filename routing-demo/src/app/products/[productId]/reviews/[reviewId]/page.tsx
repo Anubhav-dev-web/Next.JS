@@ -10,10 +10,10 @@ const ReviewDetail = ({
 }: {
   params: { productId: string; reviewId: string };
 }) => {
-  const random = getRandomInt(2);
-  if (random === 1) {
-    throw new Error('Error while fetching review');
-  }
+  // const random = getRandomInt(2);
+  // if (random === 1) {
+  //   throw new Error('Error while fetching review');
+  // }
   if (parseInt(params.reviewId) > 1000) {
     notFound();
   }
