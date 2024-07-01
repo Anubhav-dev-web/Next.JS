@@ -1,5 +1,5 @@
-"use client";
-import { notFound } from "next/navigation";
+'use client';
+import { notFound } from 'next/navigation';
 
 function getRandomInt(count: number) {
   return Math.floor(Math.random() * count);
@@ -12,7 +12,7 @@ const ReviewDetail = ({
 }) => {
   const random = getRandomInt(2);
   if (random === 1) {
-    throw new Error("Error while fetching review");
+    throw new Error('Error while fetching review');
   }
   if (parseInt(params.reviewId) > 1000) {
     notFound();
